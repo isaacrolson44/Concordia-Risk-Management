@@ -20,7 +20,7 @@ Risk Portal
       line-height: 1.6;
     }
     a {
-      color: #4B2E83;
+      color: #800000; /* Concordia Maroon */
       text-decoration: none;
     }
     a:hover,
@@ -30,7 +30,7 @@ Risk Portal
 
     /* Header */
     header {
-      background-color: #4B2E83; /* Concordia Purple */
+      background-color: #800000; /* Concordia Maroon */
       color: white;
       padding: 20px 30px;
       display: flex;
@@ -60,8 +60,8 @@ Risk Portal
 
     /* Section headings */
     h2 {
-      color: #4B2E83;
-      border-bottom: 3px solid #4B2E83;
+      color: #800000;
+      border-bottom: 3px solid #800000;
       padding-bottom: 8px;
       margin-bottom: 20px;
       font-weight: 700;
@@ -75,8 +75,8 @@ Risk Portal
 
     /* Collapsible container */
     .collapsible {
-      background-color: #e9e6f2;
-      color: #4B2E83;
+      background-color: #f2e6e6;
+      color: #800000;
       cursor: pointer;
       padding: 15px 20px;
       width: 100%;
@@ -95,13 +95,13 @@ Risk Portal
     }
     .collapsible:hover,
     .collapsible:focus {
-      background-color: #d1c9e8;
+      background-color: #d9b3b3;
     }
     .collapsible:after {
       content: '\25bc'; /* Down arrow */
       font-size: 1rem;
       transition: transform 0.3s ease;
-      color: #4B2E83;
+      color: #800000;
     }
     .collapsible.active:after {
       transform: rotate(180deg);
@@ -113,7 +113,7 @@ Risk Portal
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.35s ease;
-      background-color: #f7f6fb;
+      background-color: #f9f4f4;
       border-radius: 0 0 6px 6px;
       margin-bottom: 20px;
     }
@@ -125,7 +125,7 @@ Risk Portal
       margin-bottom: 12px;
     }
     .content strong {
-      color: #3a1f6e;
+      color: #660000;
     }
 
     /* Resources buttons */
@@ -136,19 +136,19 @@ Risk Portal
       margin-top: 10px;
     }
     .resources a {
-      background-color: #4B2E83;
+      background-color: #800000;
       color: white;
       padding: 12px 20px;
       border-radius: 6px;
       font-weight: 600;
-      box-shadow: 0 2px 6px rgb(75 46 131 / 0.4);
+      box-shadow: 0 2px 6px rgb(128 0 0 / 0.4);
       transition: background-color 0.3s ease;
       flex: 1 1 180px;
       text-align: center;
     }
     .resources a:hover,
     .resources a:focus {
-      background-color: #3a1f6e;
+      background-color: #660000;
     }
 
     /* Contact info */
@@ -158,16 +158,17 @@ Risk Portal
     }
     .contact-info a {
       font-weight: 600;
+      color: #800000;
     }
 
     /* News & updates */
     .news-updates {
-      background-color: #e9e6f2;
+      background-color: #f2e6e6;
       padding: 20px;
       border-radius: 8px;
       font-size: 1rem;
-      color: #4B2E83;
-      box-shadow: inset 0 0 8px rgb(75 46 131 / 0.15);
+      color: #800000;
+      box-shadow: inset 0 0 8px rgb(128 0 0 / 0.15);
     }
 
     /* Incident form */
@@ -188,7 +189,7 @@ Risk Portal
       resize: vertical;
     }
     form button[type="submit"] {
-      background-color: #4B2E83;
+      background-color: #800000;
       color: white;
       border: none;
       padding: 12px 25px;
@@ -200,7 +201,7 @@ Risk Portal
     }
     form button[type="submit"]:hover,
     form button[type="submit"]:focus {
-      background-color: #3a1f6e;
+      background-color: #660000;
     }
 
     /* Responsive */
@@ -223,7 +224,7 @@ Risk Portal
 
     /* Footer */
     footer {
-      background-color: #4B2E83;
+      background-color: #800000;
       color: white;
       text-align: center;
       padding: 15px 20px;
@@ -336,6 +337,9 @@ Risk Portal
         <p>901 8th St S, Moorhead, MN 56562</p>
         <p>Phone: <a href="tel:+12182993000">(218) 299-3000</a></p>
         <p>Email: <a href="mailto:riskmanagement@cord.edu">riskmanagement@cord.edu</a></p>
+        <p><strong>Risk Manager:</strong> Jane Doe</p>
+        <p>Phone: <a href="tel:+12182993123">(218) 299-3123</a></p>
+        <p>Email: <a href="mailto:jane.doe@cord.edu">jane.doe@cord.edu</a></p>
       </div>
     </section>
 
@@ -418,3 +422,4 @@ Risk Portal
   </script>
 </body>
 </html>
+      
